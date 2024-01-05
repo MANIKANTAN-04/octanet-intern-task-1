@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('young-handsome-physician-medical-robe-with-stethoscope.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1em;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-section {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.appointment-form {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 0 10px;
+    max-width: 250px; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
+
+.image-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.doctor-info p {
+    font-size: 28px; 
+    font-weight: bold;
+    color: #060707;
+    font-family: 'Your Chosen Font', sans-serif; 
+    text-align: center;
+}
+
+.doctor-info button {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.doctor-info button:hover {
+    background-color: #217dbb;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
